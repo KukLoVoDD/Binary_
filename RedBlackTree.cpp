@@ -75,7 +75,7 @@ private:
 		return searchTreeHelp(node->right, key);
 	}
 
-	// fix the rb tree modified by the delete operation
+	// fix tree modified by the delete operation
 	void fixDelete(NodePtr x) 
 	{
 		NodePtr s;
@@ -242,7 +242,7 @@ private:
 		}
 	}
 
-	// fix the red-black tree
+	// fix the tree
 	void fixInsert(NodePtr k) 
 	{
 		NodePtr uncle;
